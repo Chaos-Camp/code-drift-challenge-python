@@ -20,8 +20,8 @@ Your task is to recognize areas of code drift, reconcile the differences across 
 Clone this repository:
 
 ```bash
-git clone [repository_url] code_drift_challenge
-cd code_drift_challenge
+git clone https://github.com/Chaos-Camp/code-drift-challenge-python.git
+cd code-drift-challenge-python
 ```
 
 ### Step 2: Investigate
