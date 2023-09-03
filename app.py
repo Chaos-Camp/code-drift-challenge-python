@@ -5,5 +5,9 @@ app = Flask(__name__)
 def home():
     return "Welcome to the Home Page!"
 
+@app.route('/secure')
+def secure_page():
+    return "This is a secure page only in production!"
+
 if __name__ == '__main__':
     app.run()
